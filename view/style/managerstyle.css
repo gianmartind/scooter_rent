@@ -1,0 +1,107 @@
+.container {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.left {
+    width: 78%;
+    left: 0%;
+    margin-right: 7px;
+    display: inline-block;
+}
+
+.right {
+    float: right;
+    width: 20%;
+    margin-left: 7px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+.recentTitle {
+    font-family: Ubuntu-Bold;
+}
+
+.recentTable {
+    width: 100%;
+}
+
+.recentTh {
+    text-align: left;
+    font-family: Ubuntu-Bold;
+    color: rgb(63, 62, 62);
+    border-bottom: 2px solid #80A1D4;
+}
+
+th {
+    color: navy;
+}
+
+tr,
+td {
+    font-family: Ubuntu-Light;
+}
+
+.scootertable tr,
+.scootertable td {
+    width: 120px;
+    height: 40px;
+}
+
+.recentDiv {
+    padding: 6px;
+}
+
+.lefttop {
+    width: 100%;
+}
+
+.leftbottom {
+    width: 100%;
+}
+
+.scooterview {
+    padding: 10px;
+}
+
+.scootertable {
+    display: inline-block;
+    height: 200px;
+}
+
+.statsview {
+    padding: 10px;
+    text-align: center;
+}
+
+.inputtext {
+    margin-left: 6px;
+    height: 34px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.daftar {
+    padding: 10px;
+    width: 230px;
+    text-align: center;
+}
+
+#daftar {
+    font-family: Ubuntu-Bold;
+    text-decoration: none;
+    font-size: large;
+}
+
+.img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}

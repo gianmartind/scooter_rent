@@ -1,0 +1,122 @@
+.container {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.left {
+    font-family: Ubuntu-Light;
+    margin: 7px;
+    padding: 20px;
+    width: 24%;
+    display: inline-block;
+}
+
+.right {
+    font-family: Ubuntu-Light;
+    margin: 7px;
+    padding: 20px;
+    width: 67%;
+    float: right;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+}
+
+tr,
+th,
+td {
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+th {
+    color: navy;
+}
+
+label {
+    font-size: 16px;
+}
+
+.mod {
+    width: 88px;
+}
+
+.radiobutton {
+    margin-left: 6px;
+    width: 16px;
+    height: 16px;
+    margin: 5px 5px 0px 3px;
+}
+
+.inputtext {
+    margin-left: 6px;
+    height: 34px;
+    width: 70%;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(241, 241, 241);
+}
+
+.add {
+    font-family: Ubuntu-Bold;
+    margin-top: 4px;
+    margin-left: 5px;
+    border-style: none;
+    padding: 10px;
+    border-radius: 11px;
+    background-color: darkred;
+    color: beige;
+    float: right;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: rgba(63, 23, 23, 0.904)
+}
+
+.add:active {
+    color: cadetblue;
+}
+
+.modButton {
+    font-family: Ubuntu-Bold;
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.modButton:hover {
+    background-color: red;
+}
+
+a {
+    margin-right: 10px;
+    font-family: Ubuntu-Bold;
+}
+
+.pagination:link,
+.pagination:visited {
+    background-color: navy;
+    color: white;
+    padding: 9px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.pagination:hover,
+.pagination:active {
+    background-color: #001B2E;
+}
