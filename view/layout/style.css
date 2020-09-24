@@ -1,0 +1,91 @@
+ @font-face {
+     font-family: Ubuntu-Bold;
+     src: url(../fonts/Ubuntu-Bold.ttf);
+ }
+ 
+ @font-face {
+     font-family: Ubuntu-Light;
+     src: url(../fonts/Ubuntu-Light.ttf);
+ }
+ 
+ body {
+     margin: 0px;
+     overflow-y: scroll;
+     min-width: 1230px;
+ }
+ 
+ .header {
+     position: relative;
+     width: 100%;
+     height: 78px;
+     background-color: rgb(238, 242, 245)
+ }
+ 
+ .bigTitle {
+     font-family: Ubuntu-Bold;
+     position: absolute;
+     left: 20px;
+     top: 0%;
+     margin: 0px;
+     float: left;
+     height: 100px;
+     background-color: #001B2E;
+ }
+ 
+ #bigTitle {
+     margin: 0px;
+     padding: 10px;
+     color: white;
+     font-size: 50px;
+ }
+ 
+ .rightSide {
+     float: right;
+     font-family: Ubuntu-Light;
+ }
+ 
+ #greet,
+ #userID {
+     margin: 4px;
+     margin-top: 10px;
+     color: #001B2E;
+ }
+ 
+ .content {
+     padding: 14px;
+ }
+ 
+ .logout {
+     position: relative;
+     right: 0px;
+     border-style: none;
+     padding: 6px;
+     box-shadow: inset 0px 1px 0px 0px #f5978e;
+     background: linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+     background-color: #f24537;
+     border-radius: 6px;
+     border: 1px solid #d02718;
+     display: inline-block;
+     cursor: pointer;
+     color: #ffffff;
+     font-size: 15px;
+     font-weight: bold;
+     padding: 6px 24px;
+     text-decoration: none;
+     text-shadow: 0px 1px 0px #810e05;
+ }
+ 
+ .logout:hover {
+     background: linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+     background-color: #c62d1f;
+ }
+ 
+ .logout:active {
+     position: relative;
+     top: 1px;
+ }
+ 
+ .partition {
+     border: 1px solid cadetblue;
+     width: 60%;
+ }
