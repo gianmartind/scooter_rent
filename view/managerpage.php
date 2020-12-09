@@ -56,7 +56,7 @@
 <script>
     function showScooter(value){
         let input = "id="+value;
-        var url = '/SCOOTERRENT/showScooter?';
+        var url = '/scooter_rent/showScooter?';
 		fetch(url+input)
 			.then(function(response){
 				return response.text();
@@ -68,7 +68,7 @@
 
     function showStats(value){
         let input = "stats="+value;
-        var url = '/SCOOTERRENT/showStats?';
+        var url = '/scooter_rent/showStats?';
 		fetch(url+input)
 			.then(function(response){
 				return response.text();

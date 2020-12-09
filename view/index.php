@@ -25,7 +25,7 @@
         let id = document.getElementById("id").value;
         let pass = document.getElementById("password").value;
         let input = "id="+id+"&password="+pass;
-        var url = '/SCOOTERRENT/index/check?';
+        var url = '/scooter_rent/index/check?';
 		fetch(url+input)
 			.then(function(response){
 				return response.text();

@@ -70,7 +70,7 @@
         let kelurahan = document.getElementById("kelurahan").value;
         let id = document.getElementById("id").value;
         let input = "month="+month+"&nama="+nama+"&kelurahan="+kelurahan+"&id="+id;
-        var url = '/SCOOTERRENT/showFiltered?';
+        var url = '/scooter_rent/showFiltered?';
 		fetch(url+input)
 			.then(function(response){
 				return response.text();
